@@ -1,8 +1,8 @@
-include "main.h"
+#include "main.h"
 
 /**
  *  * more_numbers - nmbr fct
- *   *Babyrib
+ *   * Babyrib
  *    * Return: no return
  */
 
@@ -18,5 +18,6 @@ for (i = 1; i <= 10; i++)
 		_putchar(j % 10 + '0');
 	}
 	_putchar('\n');
+}
 }
 }
